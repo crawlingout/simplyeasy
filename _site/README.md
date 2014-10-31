@@ -1,1 +1,0 @@
-This is the source code of my blog at [blog.simplyeasy.cz](http://blog.simplyeasy.cz).
