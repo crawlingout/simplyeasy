@@ -1,0 +1,8 @@
+name: SimplyEasy
+markdown: redcarpet
+description: "Lifehacking, backpacking, adventure and other topics that I find interesting."
+url: http://blog.simplyeasy.cz/
+permalink: /:title
+fbappid: 1618241098403288 # facebook app ID for simplyeasy
+paginate: 16
+paginate_path: "/:num"

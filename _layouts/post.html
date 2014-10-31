@@ -1,0 +1,75 @@
+---
+layout: default
+---
+<div class="articletop">
+  <h1>{{ page.title }}</h1>
+
+  <h2>{{ page.subtitle }}</h2>
+
+  <div class="by">BY {{ page.by }}</div>
+</div>
+
+<div style="padding-left:360px;">{% include share.html %}</div>
+<div class="gap"></div>
+
+<div class="leftcolumn">
+  
+  {{ content }}
+
+  {% include share.html %}
+
+  <div class="gap"></div>
+
+    
+</div>
+
+<div class="rightcolumn">
+    <div id="ads">
+        <!-- ads come here -->
+        <a href="http://www.simplyeasy.cz/" class="ad">
+          <div class="pad">AVAILABLE FOR HIRE</div>
+          <div class="pad gray big">Designer &amp; Coder</div>
+          <div class="pad small">Striving to create beautiful, simple and functional user experience.</div>
+          <div class="minigap"></div>
+          <div class="pad smaller">HTML5, CSS3, JavaScript</div>
+        </a>
+    </div>
+</div>
+<div class="clear"></div>
+
+<div class="previous_next">
+  {% if page.previous.url %}
+    <div class="previous">
+      <a href="{{page.previous.url}}">
+        <div class="np_title">{{page.previous.title}}</div>
+      </a>
+    </div>
+  {% endif %}
+
+  {% if page.next.url %}
+    <div class="next">
+      <a href="{{page.next.url}}">
+        <div class="np_title">{{page.next.title}}</div>
+      </a>
+    </div>
+  {% endif %} 
+    <div class="clear"></div>
+
+  <div class="my_disqus_thread">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'simplyeasy'; // required: replace example with your forum shortname
+        var disqus_identifier = window.location.pathname;
+  
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</div>

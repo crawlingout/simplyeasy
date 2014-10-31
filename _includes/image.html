@@ -1,0 +1,27 @@
+<div class="img paddingtop" {% if imagewidth < 800 %}style="width:{{imagewidth}}px;"{% endif %}>
+  {% if imagelink %}
+    <a href="{{ imagelink }}">
+    <img class="my" src="{{ image }}" width="{{ imagewidth }}" height="{{ imageheight }}" alt="{{ imagealt }}">
+    </a>
+  {% else %}
+    <img class="my" src="{{ image }}" width="{{ imagewidth }}" height="{{ imageheight }}" alt="{{ imagealt }}">
+  {% endif %}
+
+  {% if imageby %}
+    <div class="imageby belowpic">
+      {% capture desc_length %}{{ imagedesc | size | minus:1 }}{% endcapture %}
+        {% unless desc_length contains '-' %}
+          {{ imagedesc }} 
+        {% endunless %}
+      {{ imageby | replace: 'photo <', 'Foto <' }}.
+    </div>
+  {% endif %}
+</div>
+
+<div class="gap">
+  {% if imagealt %}
+  <div class="pinterest_btn">
+      <a href="//www.pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&amp;media={{ site.url }}{{ image }}&amp;description={{ imagealt | replace: ' ', '%20' | replace: '&', '%26' | replace: '?', '%3F' | replace: '!', '%21' | replace: ',', '%2C' }}.%20{{ imageby | strip_html | replace: 'photo', 'Photo' | replace: ' ', '%20' | replace: '&', '%26' | replace: '?', '%3F' | replace: '!', '%21' | replace: ',', '%2C' }}." data-pin-do="buttonPin" data-pin-config="none" data-pin-color="red"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" alt="p" /></a>
+  </div>
+  {% endif %}
+</div>
