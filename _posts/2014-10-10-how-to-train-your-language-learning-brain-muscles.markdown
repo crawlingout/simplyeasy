@@ -5,6 +5,7 @@ date:   2014-10-10 20:00:00
 subtitle: "A language is more than just grammar and a vocabulary."
 by: 'JAN BILEK'
 disqus: true
+image: '/i/man-listening.jpg'
 ---
 <em><strong>tl;dr</strong>: Stimulate a pattern recognition engine in your brain. Practice understanding words instantly instead of storing 'word-translation' pairs in your brain. Build up your 'grammatical intuition' instead of memorizing grammar rules. Let the words that need to be remembered select themselves and most importantly, have fun.</em>
 
