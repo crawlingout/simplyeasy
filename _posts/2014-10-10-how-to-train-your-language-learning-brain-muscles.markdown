@@ -46,7 +46,7 @@ You can develop the ability to use grammar intuitively without explicit knowledg
 
 Like many others, I can speak and write in my mother tongue without any explicit knowledge of its grammar. Most people assume that studying grammar rules is a necessary part of learning a foreign language - I've never understood why. Even Krashen says that <em>"Language acquisition does not require extensive use of conscious grammatical rules"</em> (you can read his super-interesting book here: <a href="http://www.sdkrashen.com/content/books/principles_and_practice.pdf">Principles and Practice in Second Language Acquisition [PDF]</a>).
 
-<h3>How can I learn more efficiently?</h3>
+<h3>Learning for real life</h3>
 Now I want to learn Spanish. I went through <em>Pimsleur Spanish</em> audio lessons some time ago which gave me something to start with (in my opinion the Pimsleur method is one of the best methods you can use to learn the basics). However, when I tried to watch Spanish TV shows in order to test my ability to understand, I was barely able to catch a word now and then.
 
 Most people bow to The Holy Pair of Grammar and Vocabulary and when they fail to understand they assume it's because they don't know enough vocabulary and/or grammar. Many times this is not the case and I've often tested this theory with something I like to call 'The Newsroom test'.
