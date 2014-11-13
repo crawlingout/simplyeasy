@@ -7,8 +7,6 @@ by: 'JAN BILEK'
 disqus: true
 image: '/i/man-listening.jpg'
 ---
-<em><strong>tl;dr</strong>: Stimulate a pattern recognition engine in your brain. Practice understanding words instantly instead of storing 'word-translation' pairs in your brain. Build up your 'grammatical intuition' instead of memorizing grammar rules. Let the words that need to be remembered select themselves and most importantly, have fun.</em>
-
 Can you - effortlessly and without subtitles - understand a movie in the language you are trying to learn? If you've been studying that language for more than a year and the answer is still 'no', you might be doing it wrong.
 
 <h3>How I failed to understand Americans</h3>
