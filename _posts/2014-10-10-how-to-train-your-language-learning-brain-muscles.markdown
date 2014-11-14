@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to flex your language-learning brain muscles"
+title:  "How I Rewired My Brain to Really Understand a Foreign Language"
 date:   2014-10-10 20:00:00
 subtitle: "A language is more than just grammar and a vocabulary."
 by: 'JAN BILEK'
