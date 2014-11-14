@@ -179,8 +179,16 @@ h3 {
     display: block;
     font-size: 20px;
     min-height: 160px;
-    padding: 20px 5px;
     width: 260px;
+    margin-bottom: 30px;
+}
+
+.addcontent {
+    padding: 20px 5px;
+}
+
+.ad img {
+    width: 100%;
 }
 
 .pad {
@@ -198,14 +206,21 @@ h3 {
 
 .small {
     color: gray;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 25px;
 }
 
 .smaller {
-    color: #656565;
+    color: #4f4f4f;
     font-family: verdana,arial,sans-serif;
-    font-size: 15px;
+    font-size: 15px
+}
+
+.smallest {
+    color: #656565;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    line-height: 20px;
 }
 
 .minigap {
