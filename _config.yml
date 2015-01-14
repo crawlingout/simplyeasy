@@ -1,6 +1,6 @@
-name: SimplyEasy
+name: simplyeasy
 markdown: redcarpet
-description: "Lifehacking, backpacking, adventure and other topics that I find interesting."
+description: "Life  hacking, backpacking, adventure and other topics that I find interesting."
 url: http://blog.simplyeasy.cz
 permalink: /:title
 fbappid: 1618241098403288 # facebook app ID for simplyeasy
