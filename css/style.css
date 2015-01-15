@@ -117,6 +117,21 @@ h3 {
     margin: 30px 0 10px;
 }
 
+.imageby {
+    font-size: 12px;
+    height: 14px;
+    padding: 2px 30px 2px 5px;
+    color: #626262;
+}
+.imageby a:focus {
+    text-decoration: underline;
+}
+.imageby em {
+    font-family: verdana,arial,sans-serif;
+    font-style: normal;
+    line-height: 12px;
+}
+
 .rightcolumn {
     float: right;
     width: 262px;
@@ -133,8 +148,27 @@ h3 {
     width: 100px;
 }
 
+.previous_next {
+    padding: 35px 35px 20px;
+}
+
+.previous_next .previous, .previous_next .next {
+    font-family: arial,helvetica,sans-serif;
+    font-size: 13px;
+    height: 16px;
+}
+
+.previous_next .previous {
+    float: left;
+}
+
+.previous_next .next {
+    text-align: right;
+    float: right;
+}
+
 .my_disqus_thread {
-    padding: 0;
+    padding: 40px 0 30px 35px;
 }
 
 
