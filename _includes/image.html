@@ -17,11 +17,3 @@
     </div>
   {% endif %}
 </div>
-
-<div class="gap">
-  {% if imagealt %}
-  <div class="pinterest_btn">
-      <a href="//www.pinterest.com/pin/create/button/?url={{ site.url }}{{ page.url }}&amp;media={{ site.url }}{{ image }}&amp;description={{ imagealt | replace: ' ', '%20' | replace: '&', '%26' | replace: '?', '%3F' | replace: '!', '%21' | replace: ',', '%2C' }}.%20{{ imageby | strip_html | replace: 'photo', 'Photo' | replace: ' ', '%20' | replace: '&', '%26' | replace: '?', '%3F' | replace: '!', '%21' | replace: ',', '%2C' }}." data-pin-do="buttonPin" data-pin-config="none" data-pin-color="red"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" alt="p" /></a>
-  </div>
-  {% endif %}
-</div>
