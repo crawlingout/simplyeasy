@@ -9,17 +9,11 @@ layout: default
   <div class="by">BY {{ page.by }}</div>
 </div>
 
-<div style="padding-left:360px;">{% include share.html %}</div>
-<div class="gap"></div>
-
 <div class="leftcolumn">
   
   {{ content }}
 
   {% include share.html %}
-
-  <div class="gap"></div>
-
     
 </div>
 
@@ -46,7 +40,7 @@ layout: default
   {% if page.previous.url %}
     <div class="previous">
       <a href="{{page.previous.url}}">
-        <div class="np_title">{{page.previous.title}}</div>
+        <div class="np_title">&lt; &nbsp;&nbsp;{{page.previous.title}}</div>
       </a>
     </div>
   {% endif %}
@@ -54,7 +48,7 @@ layout: default
   {% if page.next.url %}
     <div class="next">
       <a href="{{page.next.url}}">
-        <div class="np_title">{{page.next.title}}</div>
+        <div class="np_title">{{page.next.title}}&nbsp;&nbsp; &gt;</div>
       </a>
     </div>
   {% endif %} 

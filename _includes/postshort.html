@@ -1,8 +1,6 @@
 <div class="postshort">
     <div class="date">
-        {{ post.date | date: "%d/%m"}}
-
-        <div class="year">{{ post.date | date: "%Y"}}</div>
+        {{ post.date | date: "%d/%m"}}/{{ post.date | date: "%Y"}}
     </div>
     <div class="title">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
