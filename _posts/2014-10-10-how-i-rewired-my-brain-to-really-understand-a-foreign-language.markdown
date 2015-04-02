@@ -59,11 +59,11 @@ I remember how watching American TV shows and movies helped me with English. I s
 
 - Start listening to the audio without reading the text. The 'without reading' part is important - you want to stimulate the part of the brain responsible for recognizing words in sounds (listening <strong>while</strong> reading would be like training for a cycling race on a motorbike). Try to catch as much as you can. When you get lost, pause the audio.
 
-- Read the part you just listened to and figure out the incomprehensible parts. Try to guess the meaning of unknown words. I used to look up unknown words in a dictionary, but it was slow and annoying so I made myself a simple app, which allows me to just highlight words and have them instantly translated (you can try <a href="http://icanunderstand.eu/">the app</a> here but you can also use dictionary in your Kindle or whatever alternative you prefer).
+- Read the part you just listened to and figure out the incomprehensible parts. Try to guess the meaning of unknown words. I used to look up unknown words in a dictionary, but it was slow and annoying so I made myself a simple app, which allows me to just highlight words and have them instantly translated (you can try <a href="https://understand.simplyeasy.cz/">the app</a> here but you can also use dictionary in your Kindle or whatever alternative you prefer).
 
 - Listen to the same part again. Each time, try to keep listening for as long as you can. The goal is to expose your brain to uninterrupted sequences of speech, putting yourself under the time pressure to stimulate your ability to understand words instantly.
 
-- Try to pronounce the sentence you just heard and try to imitate the speaker (I plan to add sound recording into <a href="http://icanunderstand.eu/">the app</a> so I can hear myself and compare my pronunciation with the native speaker).
+- Try to pronounce the sentence you just heard and try to imitate the speaker (I plan to add sound recording into <a href="https://understand.simplyeasy.cz/">the app</a> so I can hear myself and compare my pronunciation with the native speaker).
 
 I do this at least an hour every day. I need to feed my brain with a lot of Spanish in order to build up my 'grammatical intuition'. I really like what Michael Erard (the author of <a href="http://www.amazon.com/Babel-No-More-Extraordinary-Language-ebook/dp/B004T4KXXC/">Babel No More: The Search for the World's Most Extraordinary Language Learners</a>) says: "<em>One learns grammar from language, not language from grammar</em>" - that's exactly what I am trying to do.
 
