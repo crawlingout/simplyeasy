@@ -58,11 +58,19 @@ ul {
     max-width: 780px;
 }
 
+#language {
+    border-bottom: 1px dotted silver;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 15px 30px;
+    text-align: right;
+}
+
 #head {
-    margin: 60px auto 0;
+    font-family: Georgia,Arial,sans-serif;
+    margin: 40px auto 10px;
     max-width: 740px;
     padding: 0 10px;
-    font-family: Georgia,Arial,sans-serif;
 }
 
 .breadcrumb {
@@ -228,9 +236,16 @@ img {
 /* mobile devices */
 @media screen and (max-width: 700px) {
 
+#language {
+    font-size: 14px;
+    padding: 15px 0px;
+}
+
 #head {
     max-width: 700px;
     min-width: 300px;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .postshort .title {
