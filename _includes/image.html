@@ -1,19 +1,9 @@
-<div class="img paddingtop" {% if imagewidth < 800 %}style="width:{{imagewidth}}px;"{% endif %}>
-  {% if imagelink %}
-    <a href="{{ imagelink }}">
-    <img class="my" src="{{ image }}" width="{{ imagewidth }}" height="{{ imageheight }}" alt="{{ imagealt }}">
-    </a>
-  {% else %}
-    <img class="my" src="{{ image }}" width="{{ imagewidth }}" height="{{ imageheight }}" alt="{{ imagealt }}">
-  {% endif %}
+<div class="img paddingtop">
+  <img class="my" src="{{ image }}" alt="{{ imagealt }}">
 
   {% if imageby %}
     <div class="imageby belowpic">
-      {% capture desc_length %}{{ imagedesc | size | minus:1 }}{% endcapture %}
-        {% unless desc_length contains '-' %}
-          {{ imagedesc }} 
-        {% endunless %}
-      {{ imageby | replace: 'photo <', 'Foto <' }}.
+      {{ imagedesc }}
     </div>
   {% endif %}
 </div>
