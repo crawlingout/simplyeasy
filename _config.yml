@@ -1,8 +1,8 @@
-name: simplyeasy
+name: simplyeasy_cs
 markdown: redcarpet
-description: "Life  hacking, backpacking, adventure and other topics that I find interesting."
-url: https://blog.simplyeasy.cz
+description: "-.-- --- ..- / .- .-. . / -.-. .-.. . .- .-. .-.. -.-- / --- -. . / --- ..-. / ..- ..." # you are clearly one of us
+url: https://magazin.simplyeasy.cz
 permalink: /:title
 fbappid: 1618241098403288 # facebook app ID for simplyeasy
-paginate: 16
+paginate: 50
 paginate_path: "/:num"

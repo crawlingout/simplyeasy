@@ -19,13 +19,17 @@ a {
 
 p {
     color: #333;
-    font-family: Tahoma,Georgia,Arial,serif;
+    font-family: Georgia,Arial,serif;
     font-size: 16px;
     line-height: 35px;
 }
 
 ul {
     padding-left: 20px;
+}
+
+iframe {
+    border: none;
 }
 
 .left {
@@ -80,7 +84,7 @@ ul {
     font-size: 15px;
     letter-spacing: 1px;
     margin: 0 3px;
-    padding: 3px 6px;
+    padding: 3px 0;
     text-align: center;
     width: 80px;
 }
@@ -150,7 +154,7 @@ img {
     text-decoration: underline;
 }
 .imageby em {
-    font-family: verdana,arial,sans-serif;
+    font-family: arial,sans-serif;
     font-style: normal;
     line-height: 12px;
 }
@@ -172,8 +176,8 @@ img {
 
 .previous_next .previous, .previous_next .next {
     font-family: arial,helvetica,sans-serif;
-    font-size: 17px;
-    height: 16px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .previous_next .previous {
@@ -193,16 +197,17 @@ img {
 /* list of posts */
 
 .column .postshort {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .postshort .date {
     color: #969696;
     float: left;
-    line-height: 25px;
-    padding: 5px 0 0 25px;
-    width: 115px;
     font-family: Georgia,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 6px 0 0 25px;
+    width: 100px;
 }
 
 .postshort .date .year {
@@ -211,11 +216,15 @@ img {
 
 .postshort .title {
     float: left;
+    height: 90px;
+    line-height: 22px;
+    max-width: 620px;
+    padding: 0 20px 0 10px;
 }
 
 .column h2 {
     font: bold 17px/22px Arial,sans-serif;
-    margin: 8px 0 12px
+    margin: 8px 0 12px;
 }
 
 .column .subtitle {
@@ -233,63 +242,132 @@ img {
     letter-spacing: 1px;
 }
 
+#subscribtion {
+    border-top: 1px dotted silver;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+#subscribe {
+    float: left;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 4px;
+    padding: 0 4px;
+    width: 130px;
+}
+
+.subscribe_btn {
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    line-height: 15px;
+    padding: 3px 8px;
+    float: left;
+    text-align: center;
+    width: 70px;
+}
+
+#subscribe_send {
+    background-color: #4ba3d9;
+    display: block;
+}
+
+#subscribe_sent {
+    background-color: #74d748;
+    display: none;
+}
+
+.teaser {
+    border-top: 1px dotted silver;
+    color: #333;
+    font-family: Georgia,Arial,serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 35px;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+
+.tags {
+    padding: 0 25px;
+}
+
+.tags h5 {
+    color: #969696;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 0 0;
+    text-align: center;
+}
+
+.tag {
+    padding-top: 25px;
+}
+
+
+
+
+
 /* mobile devices */
 @media screen and (max-width: 700px) {
 
-#language {
-    font-size: 14px;
-    padding: 15px 0px;
-}
+    #language {
+        font-size: 14px;
+        padding: 15px 0px;
+    }
 
-#head {
-    max-width: 700px;
-    min-width: 300px;
-    margin: 0 auto;
-    padding: 0 10px;
-}
+    #head {
+        max-width: 700px;
+        min-width: 300px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
 
-.postshort .title {
-    clear: both;
-}
+    .postshort .title {
+        clear: both;
+    }
 
-#header #nav {
-    height: 40px;
-}
+    #header #nav {
+        height: 40px;
+    }
 
-.breadcrumb, .twtr {
-    font-size: 20px;
-}
+    .breadcrumb, .twtr {
+        font-size: 20px;
+    }
 
-.articletop .by {
-    font-size: 16px;
-}
+    .articletop .by {
+        font-size: 16px;
+    }
 
-#container {
-    margin: 0 auto;
-    padding: 25px 10px 100px;
-    max-width: 700px;
-    min-width: 300px;
-}
+    #container {
+        margin: 0 auto;
+        padding: 25px 15px 100px;
+        max-width: 700px;
+        min-width: 300px;
+    }
 
-.leftcolumn {
-    margin: 0 auto;
-    padding: 0;
-}
+    .leftcolumn {
+        margin: 0 auto;
+        padding: 0;
+    }
 
-p {
-    font-size: 16px;
-    line-height: 26px;
-}
+    p {
+        font-size: 16px;
+        line-height: 26px;
+    }
 
-.previous_next .previous, .previous_next .next {
-    font-size: 13px;
-    padding: 0;
-    height: 40px;
-}
+    .previous_next .previous, .previous_next .next {
+        font-size: 13px;
+        padding: 0;
+        height: 40px;
+    }
 
-.my_disqus_thread {
-    padding: 40px 0px;
-}
+    .my_disqus_thread {
+        padding: 40px 0px;
+    }
 
 }
 

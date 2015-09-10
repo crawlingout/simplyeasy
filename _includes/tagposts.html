@@ -1,25 +1,5 @@
-<div class="filtered">
-    <span class="filteredby back">
-        <strong>{{ page.title }}</strong>
-    </span>
-    <a href="/" class="close filteredby" title="odstranit filtrování">zpět na hlavní stranu</a>
-    <div class="clear"></div>
-</div>
-
 <div class="column">
-  {% for post in site.tags[page.tag] %}
-      {% capture x %}{{ forloop.index | modulo:2 }}{% endcapture %}
-      {% if x == '1' %}
-        {% include postshort.html %}
-      {% endif %}
+  {% for post in site.tags[page.tag] reversed %}
+    {% include postshort.html %}
   {% endfor %}
 </div>
-<div class="column columnright">
-  {% for post in site.tags[page.tag] %}
-    {% capture y %}{{ forloop.index | modulo:2 }}{% endcapture %}
-      {% if y == '0' %}
-        {% include postshort.html %}
-      {% endif %}
-  {% endfor %}
-</div>
-<div class="clear"></div>

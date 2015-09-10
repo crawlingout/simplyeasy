@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 'Jan Bilek - blog' # if changed, change other places where this is used (detecting main page etc.)
+title: 'O čemkoliv, co podněcuje zvídavost inteligentního člověka' # if changed, change other places where this is used (detecting main page etc.)
 ---
 
 <div class="column">
@@ -14,13 +14,13 @@ title: 'Jan Bilek - blog' # if changed, change other places where this is used (
 <div class="pagination">
   <div class="left" style="height: 15px;width:266px;">
   {% if paginator.next_page %}
-    &lt; &nbsp;&nbsp;<a href="/{{ paginator.next_page }}" class="next">OLDER ARTICLES</a>
+    &lt; &nbsp;&nbsp;<a href="/{{ paginator.next_page }}" class="next">STARŠÍ</a>
   {% endif %}
   </div>
   
   <div class="right" style="height: 15px;width:266px;text-align:right;">
   {% if paginator.previous_page %}
-    <a href="/{% unless paginator.previous_page == 1 %}{{ paginator.previous_page }}{% endunless %}" class="previous">NEWER ARTICLES</a>&nbsp;&nbsp; &gt;
+    <a href="/{% unless paginator.previous_page == 1 %}{{ paginator.previous_page }}{% endunless %}" class="previous">NOVĚJŠÍ</a>&nbsp;&nbsp; &gt;
   {% endif %}
   </div>
   <div class="clear"></div>

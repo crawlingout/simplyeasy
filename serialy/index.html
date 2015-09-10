@@ -1,0 +1,21 @@
+---
+layout: default
+title: 'Seriály'
+---
+<div class="tags column">
+<h2>Seriály</h2>
+
+{% assign tags = '' %}
+{% for tag in site.tags %}
+    {% capture tags %}{{ tags }}~{{ tag | first }}{% endcapture %}
+{% endfor %}
+
+{% assign sorted_tags = tags | split:"~" | sort %}
+{% for tag in sorted_tags %}
+    {% unless tag == '' %}
+    <div class="tag">
+        <a href="/serialy/{{ tag | replace:' ','-' | downcase | replace:'ě','e' | replace:'š','s' | replace:'č','c' | replace:'ř','r' | replace:'ž','z' | replace:'ý','y' | replace:'á','a' | replace:'í','i' | replace:'é','e' }}">{{ tag }}</a>
+    </div>
+    {% endunless %}
+{% endfor %}
+</div>

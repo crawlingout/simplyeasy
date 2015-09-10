@@ -7,8 +7,6 @@
     <title>{{ page.title }}</title>
     <meta name="description" content="{{ site.description }}" />
     
-    <meta content="width=device-width" name="viewport">
-    
     <meta name="viewport" content="width=device-width">
     <link type="text/css" rel="stylesheet" href="/css/style.css">
 
@@ -19,20 +17,21 @@
     <meta property="fb:app_id" content="{{ site.fbappid }}"/>
     <meta property="og:title" content="{{ page.title }}"/>
     <meta property="og:description" content="{{ page.subtitle }}"/>
-    {% if page.image %}
-    <meta property="og:image" content="{{ site.url }}{{ page.image }}"/>
+    {% if page.imagecredit %}
+    
+    <!-- {{page.imagecredit}} -->{% endif %}
+    {% if page.image %}<meta property="og:image" content="{{ site.url }}{{ page.image }}"/>
     {% else %}
     <!--
-    Image by Daniel Chodusov, License: Attribution-NoDerivs 2.0 Generic 
-    http://www.flickr.com/photos/danielchodusov/11451431466
+    image by colink. published under CC at https://flic.kr/p/bbphZk
     -->
     <meta property="og:image" content="{{ site.url }}/i/fb.jpg"/>
     {% endif %}
-    {% if page.title == 'Jan Bilek - blog' %}
+    {% if page.title == 'O čemkoliv, co podněcuje zvídavost inteligentního člověka' %}
     <meta property="og:url" content="{{ site.url }}/"/>
     <meta property="og:type" content="website"/>
     {% else %}
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}/"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace: '/index.html','' }}/"/>
     <meta property="og:type" content="article"/>
     {% endif %}
 
@@ -44,29 +43,29 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-11234868-3', 'auto');
+      ga('create', 'UA-11234868-4', 'auto');
       ga('send', 'pageview');
 
     </script>
 </head>
 
 <body>
-    {% if page.title == 'Jan Bilek - blog' %}
-    <div id="head">
-        <div id="language" class="en">
-            <a href="http://magazin.simplyeasy.cz/">ČESKY</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; ENGLISH
-        </div>
-        blog &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="http://www.simplyeasy.cz/">about me</a>
-    </div>
-    {% else %}
+    {% if page.subtitle %}
     <div id="header">
         <div id="nav">
-            <a href="http://blog.simplyeasy.cz/" class="breadcrumb">HOME</a>
+            <a href="http://magazin.simplyeasy.cz/" class="breadcrumb">DOMŮ</a>
 
             <a href="https://twitter.com/jan_bilek" class="twtr"><i class="fa fa-twitter"></i></a>
 
             <div class="clear"></div>
         </div>
+    </div>
+    {% else %}
+    <div id="head">
+        <div id="language" class="cs">
+            ČESKY &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="http://blog.simplyeasy.cz/">ENGLISH</a>
+        </div>
+        blog &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; <a href="http://www.simplyeasy.cz/cs/">o mně</a>
     </div>
     {% endif %}
 

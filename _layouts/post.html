@@ -6,12 +6,19 @@ layout: default
 
   <h2>{{ page.subtitle }}</h2>
 
-  <div class="by">BY {{ page.by }}</div>
+  <div class="by">{{ page.by }}</div>
 </div>
+
+{% comment %}
+<div style="padding-left:360px;">{% include share.html %}</div>
+<div class="gap"></div>
+{% endcomment %}
 
 <div class="leftcolumn">
   
   {{ content }}
+
+  {% include subscribe.html %}
 
   {% include share.html %}
     
@@ -20,6 +27,7 @@ layout: default
 {% comment %}
 <div class="rightcolumn">
     <div id="ads">
+        <!-- ads come here -->
         <a href="http://icanunderstand.eu/" class="ad" target="_blank">
           <img src="http://www.icanunderstand.eu/app/img/man-listening.jpg" alt="">
           <div style="font-size: 17px;font-weight: bold;padding: 10px 20px 0;">LEARNING A LANGUAGE?</div>
@@ -29,7 +37,7 @@ layout: default
         <a href="http://unexploredparadises.eu/" class="ad" target="_blank">
           <img src="http://unexploredparadises.eu/i/slovakia/cachtice/1.jpg" alt="">
           <div style="font-size: 22px;padding: 10px 20px 0;">Unexplored Paradises</div>
-          <div class="pad smallest" style="padding-bottom:20px;">Amazing collection of photographs of extraordinary travel destinations.</div>
+          <div class="pad smallest" style="padding-bottom:20px;">An amazing collection of photographs of extraordinary travel destinations.</div>
         </a>
     </div>
 </div>
@@ -40,7 +48,7 @@ layout: default
   {% if page.previous.url %}
     <div class="previous">
       <a href="{{page.previous.url}}">
-        <div class="np_title">&lt; &nbsp;&nbsp;{{page.previous.title}}</div>
+        <div class="np_title">&lt; &nbsp;&nbsp;{{page.previous.title}}&nbsp;&nbsp;&nbsp;</div>
       </a>
     </div>
   {% endif %}
@@ -48,18 +56,19 @@ layout: default
   {% if page.next.url %}
     <div class="next">
       <a href="{{page.next.url}}">
-        <div class="np_title">{{page.next.title}}&nbsp;&nbsp; &gt;</div>
+        <div class="np_title">&nbsp;&nbsp;&nbsp;{{page.next.title}}&nbsp;&nbsp; &gt;</div>
       </a>
     </div>
   {% endif %} 
     <div class="clear"></div>
 </div>
 
+{% if page.disqus %}
 <div class="my_disqus_thread">
   <div id="disqus_thread"></div>
   <script type="text/javascript">
       /* * * CONFIGURATION VARIABLES * * */
-      var disqus_shortname = 'simplyeasyen';
+      var disqus_shortname = 'simplyeasycs';
       var disqus_identifier = window.location.pathname;
       
       /* * * DON'T EDIT BELOW THIS LINE * * */
@@ -71,3 +80,4 @@ layout: default
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
+{% endif %} 
