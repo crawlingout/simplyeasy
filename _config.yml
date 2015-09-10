@@ -1,7 +1,7 @@
 name: simplyeasy_cs
 markdown: redcarpet
 description: "-.-- --- ..- / .- .-. . / -.-. .-.. . .- .-. .-.. -.-- / --- -. . / --- ..-. / ..- ..." # you are clearly one of us
-url: https://magazin.simplyeasy.cz
+url: https://blog.simplyeasy.cz
 permalink: /:title
 fbappid: 1618241098403288 # facebook app ID for simplyeasy
 paginate: 50

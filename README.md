@@ -1,1 +1,1 @@
-Blog na [magazin.simplyeasy.cz](http://magazin.simplyeasy.cz).
+Blog na [blog.simplyeasy.cz](http://blog.simplyeasy.cz).
