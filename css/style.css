@@ -92,13 +92,6 @@ iframe {
     color: #4ba3d9;
 }
 
-.twtr {
-    color: #43BFFB;
-    float: right;
-    font-size: 18px;
-    margin-right: 30px;
-}
-
 #container {
     margin: 0 auto;
     padding: 25px 0 100px;
@@ -171,13 +164,15 @@ img {
 }
 
 .previous_next {
-    padding: 35px 0 20px;
+    padding: 35px 25px 20px;
 }
 
 .previous_next .previous, .previous_next .next {
     font-family: arial,helvetica,sans-serif;
     font-size: 15px;
     font-weight: bold;
+    line-height: 22px;
+    width: 350px;
 }
 
 .previous_next .previous {
@@ -189,6 +184,11 @@ img {
     float: right;
 }
 
+.np_order {
+    color: #a7a7a7;
+    font-weight: normal;
+}
+
 .my_disqus_thread {
     padding: 40px 25px;
 }
@@ -197,7 +197,7 @@ img {
 /* list of posts */
 
 .column .postshort {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .postshort .date {
@@ -216,7 +216,6 @@ img {
 
 .postshort .title {
     float: left;
-    height: 90px;
     line-height: 22px;
     max-width: 620px;
     padding: 0 20px 0 10px;
@@ -334,7 +333,7 @@ img {
         height: 40px;
     }
 
-    .breadcrumb, .twtr {
+    .breadcrumb {
         font-size: 20px;
     }
 
@@ -359,10 +358,13 @@ img {
         line-height: 26px;
     }
 
+    .previous_next {
+        padding: 35px 0 20px;
+    }
+
     .previous_next .previous, .previous_next .next {
         font-size: 13px;
-        padding: 0;
-        height: 40px;
+        padding: 0 0 10px;
     }
 
     .my_disqus_thread {

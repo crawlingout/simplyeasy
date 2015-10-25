@@ -48,15 +48,17 @@ layout: default
   {% if page.previous.url %}
     <div class="previous">
       <a href="{{page.previous.url}}">
-        <div class="np_title">&lt; &nbsp;&nbsp;{{page.previous.title}}&nbsp;&nbsp;&nbsp;</div>
+        <span class="np_order">STARŠÍ</span>
+        <div class="np_title">{{page.previous.title}}</div>
       </a>
     </div>
   {% endif %}
 
   {% if page.next.url %}
     <div class="next">
+        <span class="np_order">NOVĚJŠÍ</span>
       <a href="{{page.next.url}}">
-        <div class="np_title">&nbsp;&nbsp;&nbsp;{{page.next.title}}&nbsp;&nbsp; &gt;</div>
+        <div class="np_title">{{page.next.title}}</div>
       </a>
     </div>
   {% endif %} 
