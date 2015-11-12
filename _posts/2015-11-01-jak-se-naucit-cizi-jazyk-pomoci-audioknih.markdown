@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Jak se naučit cizí jazyk pomocí audio obsahu, který vás opravdu zajímá"
-date:   2015-09-12 20:00:00
-subtitle: "Jaký je rozdíl mezi znalosti a dovedností, jak natrénovat schopnost rozumět plynulé řeči a jak se učit slovíčka z příběhů."
+title:  "Jak se naučit cizí jazyk pomocí audioknih"
+date:   2015-11-01 20:00:00
+subtitle: 'Moje zkušenosti s metodou vstřebávání cizích jazyků, která je překvapivě efektivní a zábavná.'
 by: 'JAN BÍLEK'
 disqus: true
 image: '/i/man-listening.jpg'
 tags:
 - 'Jak se učit jazyky chytřeji'
 ---
-Běžně narážím na lidi, kteří se ve škole učili řadu let anglicky, neflákali to, měli dobré známky, a přesto nezvládnou dívat se na americký film bez titulků. Myslím, že je to způsobené obvykle tím, že se jazyk naučili jako <i>znalost</i> - jako by ke schopnosti mluvit a rozumět stačilo našprtat se gramatiku a slovíčka. Tohle byl ostatně i můj případ, moje <a href="../jak-jsem-se-naucil-rozumet-cizi-reci-bez-prekladani-v-hlave/">krušné zkušenosti</a> v USA mi ale pomohly uvědomit si, že jazyk je především <i>dovednost</i>, a že naučit se spoustu informací o jazyku není totéž co naučit se jazyk.
+Běžně narážím na lidi, kteří se ve škole učili řadu let anglicky, neflákali to, měli dobré známky, a přesto nezvládnou dívat se na americký film bez titulků. Myslím, že je to způsobené obvykle tím, že se jazyk naučili jako <i>znalost</i> - jako by ke schopnosti mluvit a rozumět stačilo našprtat se gramatiku a slovíčka. Tohle byl ostatně i můj případ, moje <a href="../jak-jsem-se-naucil-rozumet-anglicky/">krušné zkušenosti</a> v USA mi ale pomohly uvědomit si, že jazyk je především <i>dovednost</i>, a že naučit se spoustu informací o jazyku není totéž co naučit se jazyk.
 
 <!-- responsive video embed via http://embedresponsively.com -->
 <style>
@@ -38,15 +38,15 @@ Zamyslete se, zda následující popis odpovídá tomu, co se vám děje v hlav�
 
 Podařilo se mi správně popsat vaše problémy s porozuměním? Jestli ano, tak jen proto, že je velmi dobře znám z vlastní zkušenosti. Když je mozek zahlcený vjemy a nemá dovednosti potřebné k jejich rychlému zpracovávání, nemůže plynulé řeči rozumět ani s dobrou znalostí gramatických pravidel a slovíček.
 
-Dovednost je schopnost vykonávat určité mentální procesy automaticky, bez přemýšlení, dokonce bez uvědomování si, že to vůbec děláte. Podstatný rozdíl mezi vědomým aplikováním znalosti a podvědomým používáním dovednosti je rychlost. Vědomé procesy jsou ve srovnání s nevědomými nesmírně pomalé. Problém s používáním jazyka je to, že je to v podstatě velmi složitá souhra činností, které se odehrávají v reálném čase. Rychlost je klíčová a s vědomými procesy nevystačíte - bez jejich pomoci budete mluvit lámaně a nebudete stíhat rozumět souvislé řeči.
+Dovednost je schopnost vykonávat určité mentální procesy automaticky, bez přemýšlení, dokonce bez uvědomování si, že to vůbec děláte. Podstatný rozdíl mezi vědomým aplikováním znalosti a podvědomým používáním dovednosti je rychlost. Vědomé procesy jsou ve srovnání s nevědomými nesmírně pomalé. Problém s používáním jazyka je to, že je to v podstatě velmi složitá souhra činností, které se zároveň odehrávají v reálném čase. Rychlost je klíčová a s vědomými procesy nevystačíte - bez jejich pomoci budete mluvit lámaně a nebudete stíhat rozumět souvislé řeči.
 
-Proto se cizí jazyk nedá našprtat stejným způsobem jako třeba dějepis (přesněji řečeno, nedá se to tak dělat, pokud ten jazyk chcete opravdu ovládat a nejde vám jen o to mít z něj maturitu). Proces zvládnutí cizího jazyka je v mnohém podobnější spíš procesu, kterým jsme se naučili jezdit na kole. Nestačí mít teoretické znalosti, je nutné to nacvičit. Když jste poprvé zkusili jet na kole, museli jste se soustředit na šlapání a udržování rovnováhy a ujeli jste sotva víc než pár klikatých metrů. Procvičováním jste si ale postupně vypracovali v mozku spoje, s jejichž pomocí teď dokážete na kole ladně koordinovat pohyby, rychlými manévry vyhýbat dírám v silnici... a tohle všechno zvládáte bezmyšlenkovitě, zatímco se kocháte krajinou. Podobně si potřebujete do mozku zadrátovat i cizí jazyk. 
+Proto se cizí jazyk nedá našprtat stejným způsobem jako třeba dějepis (přesněji řečeno, nedá se to tak udělat, pokud ten jazyk chcete opravdu ovládat a nejde vám jen o to mít z něj maturitu). Proces zvládnutí cizího jazyka je v mnohém podobnější spíš procesu, kterým jsme se naučili jezdit na kole. Nepomůže vám mít teoretické znalosti, je nutné to nacvičit. Když jste poprvé zkusili jet na kole, museli jste se soustředit na šlapání a udržování rovnováhy a ujeli jste sotva víc než pár klikatých metrů. Procvičováním jste si ale postupně vypracovali v mozku spoje, s jejichž pomocí teď dokážete na kole ladně koordinovat pohyby, rychlými manévry vyhýbat dírám v silnici... a tohle všechno zvládáte bezmyšlenkovitě, zatímco se kocháte krajinou. Podobně si potřebujete do mozku zadrátovat i cizí jazyk. 
 
 Obecně platí, že čím častěji se nějaký spoj v mozku 'sepne' aby 'rozsvítil' určitý neuron, tím silnější se ten spoj stává stává a tím menší podnět stačí, aby se znovu aktivoval. Když chcete posilovat jazykové spoje, musíte je zapínat. Když nějaké slovo uslyšíte poprvé, možná ho příště ani nerozpoznáte nebo vám bude trvat tři vteřiny než si jeho zvuk spojíte s jeho významem. Když to slovo uslyšíte mnohokrát v různých souvislostech a tvarech, mozek si vytvoří řadu silných spojů a příslušné neurony se rozsvítí, i když se to slovo jen mihne v rychlém proudu řeči.
 
 Trénování spojů v mozku je tak trochu jako vyšlapávání cestiček v divočině. Nejdřív se musíte prodírat porostem - dostat se k tomu správnému místu v džungli paměti trvá dlouho a stojí to spoustu úsilí. Když ale někam přijdete tisíckrát, vyšlapete tam pohodlnou pěšinku. Tu pak stačí už jen bezmyšlenkovitě následovat a dostanete se tam kam potřebujete rychle a snadno.
 
-Podle mojí zkušenosti jsou k prošlapávání jazykových cestiček v mozku obzvlášť vhodné audioknihy. Nejefektivnější způsob, který jsem zatím vyzkoušel, je sehnat si textovou i audio verzi nějaké opravdu hodně zajímavé knihy a začít se jí prokousávat s použitím následujícího postupu:
+Podle mojí zkušenosti jsou k prošlapávání jazykových cestiček v mozku obzvlášť vhodné audioknihy. Nejefektivnější způsob, který jsem zatím sám na sobě vyzkoušel, je sehnat si textovou i audio verzi nějaké opravdu hodně zajímavé knihy a začít se jí prokousávat s použitím následujícího postupu:
 
 - Začnu poslouchat audio bez toho, abych se díval na text. Nedívat se na text je důležité - cílem je natrénovat rozpoznávání slov ve zvucích, takže poslouchat a zároveň to číst by bylo jako trénovat na cyklistické závody na motorce. Proto jen poslouchám a snažím se neztratit nit co nejdéle. Jakmile se přestanu chytat, zastavím audio.
 
@@ -60,12 +60,4 @@ Pokud máte nějakou oblíbenou knihu, která vás stále baví, přestože ji u
 
 Postupem času se zlepšíte natolik, že budete schopni rozumět většině mluveného slova bez toho, abyste se museli na text vůbec dívat; budete prostě poslouchat a jen čas od času jedním očkem mrknete na text, rychle vyhledáte kritické místo, kterému jste nerozuměli, nebo si kliknete pro překlad neznámého slovíčka a vrátíte se k poslouchání.
 
-Metoda prokousávání se zajímavým audio obsahem rozvíjí nejen schopnost rozumět mluvenému slovu, ale i slovní zásobu a dokonce i to, čemu Stephen Krashen říká cit pro gramatično, tj. schopnost mluvit gramaticky správně bez nutnosti vědomě aplikovat gramatická pravidla. Jak to vlastně funguje, o tom budu psát v dalším díle tohoto jazykového seriálu.
-
-Už teď se s vámi ale podělím o velmi užitečný trik pro efektivní vstřebávání nových slovíček: pokaždé když narazíte na neznámé slovo, které si budete potřebovat přeložit, budete v pokušení snažit se vrýt si ho do paměti jako při memorování slovíček ze slovníčku. Zkuste tomu pokušení odolat. Soustřeďte se na příběh a překlad neznámého slova považujte za vyrušení, za překážku, která vám brání ponořit se zpět do děje - čím dřív jí překonáte a necháte za sebou, tím lépe.
-
-Nenechte se frustrovat, když narazíte na slovo, o kterém víte, že jste si je překládali před půl hodinou, a přesto si už nedokážete vybavit jeho význam. Prostě znovu klikněte pro překlad. V další kapitole už mu najednou porozumíte a časem vám bude připadat úplně samozřejmé. Je to zdánlivě paradoxní, ale podle mojí zkušenosti slova ulpívají v paměti tím lépe, čím méně se o to vědomě snažím.
-
-<div class="teaser">
-Proč jsem se pustil do pátrání po metodách učení se cizích jazyků, které fungují lépe než šprtání gramatiky a slovíček, a co jsem vypátral... o tom se dočtete v <a href="../jak-se-ucit-jazyky-efektivneji">dalším díle</a> tohoto <a href="../serialy/jak-se-ucit-jazyky-chytreji">jazykového seriálu</a>.
-</div>
+Prokousávání se audioknihami je dobré nejen k rozvíjení schopnosti rozumět mluvenému slovu, funguje i jako velmi účinná metoda pro budování slovní zásoby a získávání <em>citu pro gramatično</em>, tj. schopnosti mluvit gramaticky správně bez nutnosti vědomě aplikovat gramatická pravidla. V dalších dílech tohoto <a href="../serialy/jak-se-ucit-jazyky-chytreji">jazykového seriálu</a> se trochu podrobněji rozepíšu o tom, jaké triky se dají pro vstřebávání slovíček a gramatiky použít. Nejdřív ale stručně <a href="../jak-se-ucit-jazyky-efektivneji">zabrousím</a> do teorie - když budete vědět některé detaily o tom, jak vlastně funguje paměť a jak si lidé osvojují rodnou řeč, pomůže vám to učit se jazyky efektivněji.
